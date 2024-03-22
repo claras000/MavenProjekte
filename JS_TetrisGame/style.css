@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
+html {
+  background-image: url(./image/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.grid {
+  width: 200px;
+  height: 420px;
+  /* flexbox for the divs inside */
+  display: flex;
+  margin: 20px auto;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.707);
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(10, 65, 66);
+  border-radius: 3px;
+}
+
+.game {
+  width: 300px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+.grid div {
+  height: 18.4px;
+  width: 18.4px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(220, 207, 238, 0.593);
+  border-style: inset;
+}
+
+button {
+  padding: 6px 15px;
+  border-radius: 4px;
+  background-color: rgb(8, 27, 28);
+  color: rgb(236, 228, 235);
+  border: 2px;
+  border-style: inset;
+  border-color: rgb(180, 197, 200);
+  font-family: "Tilt Neon", cursive;
+}
+
+button:hover {
+  background-color: rgb(190, 49, 68);
+}
+
+.taken {
+  background-color: rgb(6, 50, 54);
+}
+
+.tetraminoBlue {
+  background-color: rgb(6, 123, 127);
+}
+
+.tetraminoRed {
+  background-color: rgb(226, 169, 36);
+}
+
+.tetraminoGreen {
+  background-color: rgb(25, 163, 117);
+}
+
+.tetraminoPurple {
+  background-color: rgb(190, 49, 68);
+}
+
+h1 {
+  font-family: "Black Ops One", cursive;
+  color: white;
+}
+
+h3 {
+  font-family: "Tilt Neon", cursive;
+  color: white;
+}

@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800&display=swap");
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  background: rgb(216, 216, 216);
+  background: linear-gradient(
+    0deg,
+    rgba(216, 216, 216, 1) 0%,
+    rgba(234, 233, 233, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 1.3 rem;
+  color: rgb(25, 198, 71);
+  font-weight: 800;
+}
+
+p {
+  font-style: light;
+}
+
+legend {
+  font-weight: 700;
+}
+
+.description {
+  color: black;
+}
+
+.formula {
+  text-align: left;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  min-height: 2em;
+  border-radius: 0 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#survey-form {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 30px 25px;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 680px;
+  min-width: 300px;
+  margin: 1rem 15px;
+  padding: 35px 0.625rem;
+  border: 2px inset #ffffff99;
+  border: none;
+  border-top: 0.1px solid #ffffff99;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+.text {
+  border: 2px solid rgb(25, 198, 71);
+  border-radius: 10px;
+  background-color: rgb(226, 237, 229);
+}
+
+.foodIcon {
+  text-align: center;
+  margin: 5px auto;
+  width: 120px;
+  height: 120px;
+}
+
+.inline {
+  width: unset;
+  margin: 0.6em 0.5em 0.6em 0;
+  vertical-align: middle;
+}
+
+input {
+  border-radius: 5px;
+}
+
+select {
+  width: 100%;
+  display: block;
+  margin: 0.7rem 0;
+  height: 1.7rem;
+  background-color: rgb(226, 237, 229);
+  border: 2px solid rgb(25, 198, 71);
+  border-radius: 10px;
+  color: black;
+}
+
+input {
+  margin: 15px 0 0 0;
+  width: 100%;
+  padding: 5px;
+  min-height: 2em;
+  background: #fffefb;
+  color: black;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 1px solid #fffefb;
+  margin: 35px 15px 15px 15px;
+  padding: 18px 0;
+}
+
+.terms {
+  padding: 0 15px;
+}
+
+#submit {
+  border-radius: 0;
+  padding: 13px;
+  text-align: center;
+  font-weight: bold;
+
+  border: 2px solid rgb(25, 198, 71);
+  background: rgb(25, 198, 71);
+  color: rgb(252, 253, 252);
+  border-radius: 10px;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
+
+#first {
+  border-radius: o;
+  margin: 0px 5px 0px 15px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#first p {
+  background-color: rgb(226, 237, 229);
+  color: black;
+  padding: 6px 6px;
+  border-radius: 5px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+}
+
+label {
+  font-weight: 500;
+}
+
+p {
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+#backgroundColor {
+  background-color: white;
+  margin: 20px 0 30px 0;
+  padding: 10px;
+  border: none;
+  max-width: 780px;
+  border-radius: 13px;
+}
+
+.ernährungDescription {
+  margin: 0 0 20px 0;
+}
+
+.abstand {
+  margin-top: 100px;
+}
+
+textarea {
+  text-align: center;
+  width: 400px;
+  background-color: rgb(226, 237, 229);
+  border: 2px solid rgb(25, 198, 71);
+  border-radius: 10px;
+}

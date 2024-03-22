@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;1,9..40,200;1,9..40,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap");
+
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+#title {
+  font-size: 2rem;
+  font-family: "MuseoModerno", sans-serif;
+  font-weight: 600;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  /* On larger screens, adjust the layout to side-by-side */
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    flex-wrap: wrap;
+  }
+  #navbar {
+    position: fixed;
+    z-index: 2;
+    text-align: center;
+    padding: 8px;
+    margin: 0;
+    border-radius: 0px;
+  }
+  #navbar h1,
+  p {
+    font-size: 13px;
+    margin: 0;
+  }
+  .na-links {
+    visibility: hidden;
+    height: 0;
+  }
+  #html {
+    margin: 150px 0 20px 0;
+  }
+}
+
+.body {
+  background-color: #0235b7;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  width: 100%;
+  color: white;
+  padding: 15px;
+  position: sticky;
+  margin: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  color: white;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 20px 18px 0 0;
+  text-decoration: underline;
+  text-decoration-color: #0235b7;
+}
+
+.navbar header {
+  font-size: 0.8em;
+}
+
+.main-doc {
+  flex: auto;
+  overflow-y: auto;
+  padding: 20px;
+  position: relative;
+}
+
+.main-doc header {
+  font-size: 2rem;
+  font-family: "MuseoModerno", sans-serif;
+  font-weight: 600;
+  color: #0235b7;
+}
+
+.main-section {
+  background-color: white;
+  padding: 18px;
+  margin: 0 0 20px 0;
+  border-radius: 10px;
+  box-shadow: 7px 9px 21px -4px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 7px 9px 21px -4px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 7px 9px 21px -4px rgba(0, 0, 0, 0.29);
+}
+
+h1 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+
+pre {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+  overflow-x: auto;
+  font-family: "Courier New", monospace;
+}

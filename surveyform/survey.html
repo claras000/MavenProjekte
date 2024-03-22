@@ -1,0 +1,205 @@
+
+
+<!DOCTYPE>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="backgroundColor">
+<div>
+    <img class="foodIcon" src="foodicon.png" alt="healthy Food Icon"/>
+    <h1 id="title" >Umfrage zur nachhaltigen Ernährung von Student*innen an der Universität</h1>
+      <h3 id="undertitle" >Umfrage zur nachhaltigem Handeln und Konsum von </br> Student*innen an der Universität Bremen
+      </h3>
+      </div>
+    <div class="formula">
+      <form id="survey-form">
+        <fieldset id="first">
+        <p class="description" id="description"> <i>Wir bitten Teilnehmer*innen Fragen möglichst wahrheitsgetreu zu beantworten</i></<p>
+</fieldset>
+<fieldset class="abstand">
+  <legend>
+    DEINE PERSÖNLICHEN ANGABEN</legend>
+<label for="name" id="name-label" >
+  Dein Name 
+<input 
+id="name"
+type="text" 
+class="text"
+name="name" 
+placeholder="Ich heiße.."
+required/>
+</label>
+<label for="email" id="email-label">
+  Deine E-mail
+  <input 
+  id="email" 
+  name="email"
+  class="text"
+  type="email"
+  placeholder="Meine Mail ist.."
+  required/>
+  </label>
+       <label for="number" id="number-label">
+         Dein Alter
+        <input 
+        id="number"         
+        type="number" 
+        class="text"
+        min="10" 
+        max="99" 
+        name="number" 
+        placeholder="Ich bin.. Jahre alt"
+        required/>
+        </label>
+       </fieldset>
+<fieldset>
+  <legend>
+    DEINE SELBSTEINSCHÄTZUNG</legend>
+ <label 
+ for="submit">
+ Schätze deinen CO2 Fußabruck ab im Vergleich zum deutschen Durchschnitt. (circa 12 Tonnen CO2 pro Jahr)
+
+ <select 
+ id="value" 
+ name="value">
+   <option value="0">
+   Auswahl
+   </option>
+   <option value="1">
+     ich verbrauche weniger 
+     </option>
+   <option value="2">
+    Ich verbauche genau so viel
+     </option>
+   <option value="3">
+     Ich verbauche mehr
+     </option>
+ </select>
+ </label>
+ <label for="submit">
+   Wärst du bereit deine Verhaltensweisen nachhaltiger zu gestalten und damit deinen CO2 Fußabdruck zu veringern?
+   <select 
+   id="dropdown" 
+   name="dropdown">
+   <option value="0">
+     Auswahl
+     </option>
+   <option value="1">
+     nein, kein Interesse
+     </option>
+   <option value="2">
+     ja, etwas wäre schon drin
+     </option>
+   <option value="3">
+     ja, aber wie?
+     </option>
+   <option value="4">
+     ich hole schon das beste raus
+     </option>
+ </select>
+ </label>
+</fieldset>
+<fieldset >
+ <legend>
+    DEINE ERNÄHRUNG</legend>
+    <label class="ernährungDescription" id="ernährungDescription">Wähle aus, wenn zutreffend:</label>
+    
+  <label for="submit">
+<input type="radio" class="inline" name="radio" value="1"/>Ich ernähre mich vollständig vegan
+</label>
+ <label for="submit">
+<input type="radio" class="inline" name="radio" value="2"/>Ich ernähre mich vegetarisch
+</label>
+ <label for="submit">
+<input type="radio" class="inline" name="radio" value="3"/>Ich esse selten Fleisch und Milchprodukte
+</label>
+ <label for="submit">
+<input type="radio" class="inline" name="radio"value="4"/>Ich esse mehr als einmal die Woche Fleisch
+</label>
+</fieldset>
+
+
+
+<fielset>
+  <legend>
+    DEINE ERNÄHRUNG</legend>
+    <label class="ernährungDescription" id="ernährungDescription">Wähle aus, wenn zutreffend:</label>
+    
+  <label for="submit">
+<input type="radio" class="inline" name="radio" value="1"/>Ich ernähre mich vollständig vegan
+</label>
+ <label for="submit">
+<input type="radio" class="inline" name="radio" value="2"/>Ich ernähre mich vegetarisch
+</label>
+ <label for="submit">
+<input type="radio" class="inline" name="radio" value="3"/>Ich esse selten Fleisch und Milchprodukte
+</label>
+ <label for="submit">
+<input type="radio" class="inline" name="radio"value="4"/>Ich esse mehr als einmal die Woche Fleisch
+</label>
+</fieldset>
+
+<fieldset>
+  <legend>BIOLOGISCHE PRODUKTE</legend>
+  <label for="submit">
+      <input type="checkbox" id="checkbox" class="inline" name="checkbox" value="Wochenmarkt">
+  Ich kaufe ausschließlich biologische Produkte vom Wochenmarkt.
+    <label>
+      <label for="submit">
+      <input type="checkbox" id="checkbox" class="inline" name="checkbox" value="BioladenWochenmarkt">
+  Ich kaufe Bio Lebensmittel im Bioladen und manchmal auf dem Markt.
+    <label>
+       <label for="submit">
+      <input type="checkbox" id="checkbox" class="inline" name="checkbox" value="teilweiseBioladen">
+  Ich kaufe zu großen Teilen Biolebensmitteln im - meistens im Bioladen.
+    <label>
+      <label for="submit">
+      <input type="checkbox" id="checkbox" class="inline" name="checkbox" value="BioDiscounter">
+  Ich kaufe zu großen Teilen Biolebensmitteln im meistens im Dicounter.
+    <label>
+  </fieldset>
+
+  <fieldset>
+  <legend>BIOLOGISCHE PRODUKTE</legend>
+  <label for="submit">
+      <input type="checkbox" id="checkbox" class="inline" name="checkbox" value="Wochenmarkt">
+  Ich kaufe ausschließlich biologische Produkte vom Wochenmarkt.
+    <label>
+      <label for="submit">
+      <input type="checkbox" id="checkbox" class="inline" name="checkbox" value="BioladenWochenmarkt">
+  Ich kaufe Bio Lebensmittel im Bioladen und manchmal auf dem Markt.
+    <label>
+       <label for="submit">
+      <input type="checkbox" id="checkbox" class="inline" name="checkbox" value="teilweiseBioladen">
+  Ich kaufe zu großen Teilen Biolebensmitteln im - meistens im Bioladen.
+    <label>
+      <label for="submit">
+      <input type="checkbox" id="checkbox" class="inline" name="checkbox" value="BioDiscounter">
+  Ich kaufe zu großen Teilen Biolebensmitteln im meistens im Dicounter.
+    <label>
+  </fieldset>
+
+<fieldset>
+   <legend>
+    DEIN KOMMENTAR</legend>
+   <label for="bio">
+          <textarea id="bio" name="bio" rows="8" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+        </fieldset>
+
+  <label for="terms-and-conditions" class="terms">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="accepted" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        </label>
+
+
+<div>
+ <input type="submit" id="submit" value="Submit" />
+ </div>
+      </form>
+      </div>
+      </div>
+    </body>
+
